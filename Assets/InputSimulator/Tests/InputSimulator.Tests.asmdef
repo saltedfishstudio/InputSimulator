@@ -1,0 +1,17 @@
+{
+    "name": "InputSimulator.Tests",
+    "references": [
+        "GUID:e7faa49a28cfedf44bc2d80891b89701"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
