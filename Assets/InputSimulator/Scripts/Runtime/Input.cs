@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
+#if INPUT_INTERNAL_TEST
 public class Input
 {
 	public static bool GetKeyDown(KeyCode keyCode)
@@ -16,10 +17,11 @@ public class Input
 
 public static class InputInternal
 {
-	Dictionary<KeyCode, bool>
+	static Dictionary<KeyCode, bool> map;
 	
 	public static void KeyDown(KeyCode keyCode)
 	{
 		
 	}
 }
+#endif
